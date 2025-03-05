@@ -861,6 +861,9 @@ p.para-color {
   z-index: 2;
   box-shadow: 0 0 50px #00000026;
 }
+.threed_light {
+  animation: star-rotate 4s ease-in-out infinite;
+}
 @keyframes star-rotate {
   0% {
     transform: translatey(0);
@@ -1909,7 +1912,8 @@ p.para-color {
   position: relative;
 }
 #ctabtn .ctabg {
-  background: linear-gradient(to right, #161677, #0a0a54);
+  /* background: linear-gradient(to right, #161677, #0a0a54); */
+  background: linear-gradient(89.99deg, #279bc0 0.01%, #000000 99.42%);
   padding: 60px 60px;
   border-radius: 20px;
   display: flex;
@@ -2245,7 +2249,8 @@ p.para-color {
   padding: 5% 5%;
 }
 #scnd-call-action .scnd-cta {
-  background: linear-gradient(to left, #161677, #0a0a54);
+  /* background: linear-gradient(to left, #161677, #0a0a54); */
+  background: linear-gradient(89.99deg, #279bc0 0.01%, #000000 99.42%);
   border-radius: 20px;
   display: flex;
   padding: 30px 30px;
@@ -2269,7 +2274,7 @@ p.para-color {
 }
 #scnd-call-action .scnd-cta .right .shade-logo img {
   transform: rotate(16deg);
-  width: 300px;
+  width: 220px;
   opacity: 0.2;
 }
 #scnd-call-action .scnd-cta .left .ctahead {
@@ -2876,6 +2881,7 @@ p.para-color {
 #contactsection .bottom-section .cont-btn {
   padding: 10px 20px;
   background: var(--scndtextcolor);
+  background: linear-gradient(89.99deg, #279bc0 0.01%, #000000 99.42%);
   border-radius: 5px;
   width: 100%;
   color: #fff;
